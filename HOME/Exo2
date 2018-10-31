@@ -4,7 +4,7 @@ def correct_sentence(text: str) -> str:
         and ends with a dot.
     """
 
-    If not text.endswith('.'):
+    if not text.endswith('.'):
         text += '.'
 
 
